@@ -1377,7 +1377,7 @@ void Forward(int *JCnt)
 }
 
 /**************************************************************************/
-void Partition_Main(long LocalItersAllowed)
+int Partition_Main(long LocalItersAllowed)
 {
     long IterCntr=0;			       /* to count iterations */
     int i,BitsInBest;			       /* find out how big winner is*/
@@ -1524,7 +1524,7 @@ void Bad_Run(char *OutFile, char *InFileName)
 
                                
 /**************************************************************************/
-void main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
     double far *XSave, far *XWorking;       /* copies of X */
 #   define XWorkingof(i,j) *(XWorking+(i-1)*VectLen+j-1) /* col major...*/

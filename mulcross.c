@@ -551,7 +551,7 @@ void Generate_Permutation(int N, int *p)
 }
                      
 /**************************************************************************/
-void main()
+int main()
 {
   FILE *f;           /* to update seed file */
   int i,j,k, row, col; /* loop indexes (cannablized code)*/

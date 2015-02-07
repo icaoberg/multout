@@ -1,0 +1,10 @@
+language: c 
+
+# whitelist
+branches:
+  only:
+    - dev
+
+script:
+    - make
+    - make test

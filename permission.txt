@@ -1,0 +1,2 @@
+The multout and mulcross software may be freely distributed for
+non-commercial use.

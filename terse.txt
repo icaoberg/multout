@@ -1,0 +1,51 @@
+                        A Terse Summary of
+                            multout
+                       A Program for Robust,
+                      Multivariate Analysis
+                      
+THIS SOFTWARE IS PROVIDED "AS IS." THERE IS NO WARRANTY EXPRESS OR IMPLIED 
+OF ANY KIND.  MERCHANTABILITY AND FITNESS FOR ANY PARTICULAR USE ARE
+EXPRESSLY NOT WARRANTED.
+
+The program attempts to find a robust estimate of shape, location and
+Mahalanobis distances in high dimension. The dimension and number of
+data points are limited only by computer memory. See the paper
+"Identification of Outliers in Multivariate Data" by Rocke and
+Woodruff (JASA, September 1996) for detailed explanations of the
+algorithms.
+
+To run the program from the command line use:
+  multout infile outfile iterations [parmsfile]
+where infile contains: p n
+                       data record one (p data elements)
+                       data record two
+                             . . . 
+  and iterations is an integer controlling the time spent.
+  For light contamination use 1 iteration; for heavy, try n*n
+
+Example: 
+  multout suspect.dat suspect.out 10000
+  
+Example data file for 8 data points in dimension 3 where only
+the first two data points are shown:
+  3 8
+  2.112 1.232 4.9871
+  8.665 5.182 3.9982
+     
+The argument parmsfile is optional and is intended for use only by 
+programmers at the present time.
+
+The outfile argument gives the name of a file that will contain
+the program output at the end of execution. 
+
+Notes:
+  1. The simulations for outlier detection take a long time. If you
+     are going to do multiple sets of analysis with simlar data sets,
+     and if you are a programmer, you can speed this up a great deal 
+     by doing simulations in advance and creating a table
+  2. The program cannot deal with singular data very well. A simple and 
+     common form of singular data is a large number of data points that are 
+     exactly the same. If the program complains about singularities, you may 
+     need to consider slight perturbations of your data.  
+  3. Send questions and comments to dlwoodruff@ucdavis.edu (916/752-0515)
+

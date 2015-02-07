@@ -1,0 +1,2 @@
+multout: The program attempts to find a robust estimate of shape, location and
+Mahalanobis distances in high dimension.

@@ -10,4 +10,4 @@ script:
 
 after_script:
     - ./multout MULCROSS.DAT MULCROSS.OUT 100
-    - head MULCROSS.OUT
+    - cat MULCROSS.OUT

@@ -7,4 +7,5 @@ branches:
 
 script:
     - make
-    - ./multout MULCROSS.DAT MULCROSS.OUT 1000
+    - ./multout MULCROSS.DAT MULCROSS.OUT 100
+    - head MULCROSS.OUT

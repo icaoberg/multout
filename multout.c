@@ -22,7 +22,7 @@
 /* 6. Singularities in the data are not handled very well (see 0.)*/
 /* 7. send questions to dlwoodruff@ucdavis.edu; (916)752-0515 */
 
-#define BANNER "multout version 3.03\nCopyright 1992,93,94,95,96 by David L. Woodruff and David M. Rocke\n"
+#define BANNER "multout version 3.03.1\nCopyright 1992,93,94,95,96 by David L. Woodruff and David M. Rocke\n"
 
 /* Release Notes: */
 /* 
@@ -1377,7 +1377,7 @@ void Forward(int *JCnt)
 }
 
 /**************************************************************************/
-void Partition_Main(long LocalItersAllowed)
+int Partition_Main(long LocalItersAllowed)
 {
     long IterCntr=0;			       /* to count iterations */
     int i,BitsInBest;			       /* find out how big winner is*/
@@ -1524,7 +1524,7 @@ void Bad_Run(char *OutFile, char *InFileName)
 
                                
 /**************************************************************************/
-void main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
     double far *XSave, far *XWorking;       /* copies of X */
 #   define XWorkingof(i,j) *(XWorking+(i-1)*VectLen+j-1) /* col major...*/

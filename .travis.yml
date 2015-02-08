@@ -1,0 +1,13 @@
+language: c 
+
+# whitelist
+branches:
+  only:
+    - dev
+
+script:
+    - make
+
+after_script:
+    - ./multout MULCROSS.DAT MULCROSS.OUT 100
+    - cat MULCROSS.OUT

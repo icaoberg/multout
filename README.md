@@ -30,7 +30,7 @@ Usage
 -----
 ```
 [icaoberg@lanec1 multout]$ ./multout  
-multout version 3.03
+multout version 3.03.1
 Copyright 1992,93,94,95,96 by David L. Woodruff and David M. Rocke
 Usage: multout infile outfile [iterations [parmsfile]]
 
@@ -58,7 +58,7 @@ You should see output similar to
 
 ```
 [icaoberg@lanec1 multout]$ ./multout MULCROSS.DAT MULCROSS.OUT 100
-multout version 3.03
+multout version 3.03.1
 Copyright 1992,93,94,95,96 by David L. Woodruff and David M. Rocke
 Begin Partition Cell 1
 Begin Partition Cell 2
@@ -69,3 +69,4 @@ Beginning outlier detection.
 Done.
 Final report written to MULCROSS.OUT
 ```
+

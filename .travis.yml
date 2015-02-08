@@ -3,6 +3,7 @@ language: c
 # whitelist
 branches:
   only:
+    - master
     - dev
 
 script:

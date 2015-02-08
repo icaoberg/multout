@@ -15,3 +15,13 @@ Status](https://travis-ci.org/icaoberg/multout.svg?branch=dev)](https://travis-c
 ### Master branch status
 [![Build 
 Status](https://travis-ci.org/icaoberg/multout.svg?branch=master)](https://travis-ci.org/icaoberg/multout)
+
+Installation
+------------
+To build multout type
+
+```
+make
+```
+
+This should make two files: multout and mulcross.

@@ -2,7 +2,13 @@ multout
 =======
 A program for finding a robust estimate of shape, location and Mahalanobis distances in high dimension.
 
-This software was used as a tool in the following article
+This software was used and referenced in the following articles
+
+* Rocke and Woodruff. (1996) [Idenfication of Outliers in Multivariate 
+Data](http://www.jstor.org/discover/10.2307/2291724?sid=21105809106893&uid=2&uid=4&uid=3739256&uid=3739864). 
+Journal of the American Statistical Association 91:1047-1061.
+
+and
 
 * Markey, M.K., Boland, M.V., and Murphy, R.F. (1999) [Towards Objective Selection of Representative 
 Microscope Images](http://murphylab.web.cmu.edu/publications/72-markey1999.pdf). Biophysical Journal 
@@ -70,3 +76,12 @@ Done.
 Final report written to MULCROSS.OUT
 ```
 
+Bugs and Questions
+------------------
+Feel free to contact the original author, David Woodruff at `dlwoodruff AT ucdavis DOT edu`
+
+To submit bugs about the source code in this repository please visit
+
+https://github.com/icaoberg/multout
+
+For any other inquiries visit those links as well.

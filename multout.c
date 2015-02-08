@@ -22,7 +22,7 @@
 /* 6. Singularities in the data are not handled very well (see 0.)*/
 /* 7. send questions to dlwoodruff@ucdavis.edu; (916)752-0515 */
 
-#define BANNER "multout version 3.03\nCopyright 1992,93,94,95,96 by David L. Woodruff and David M. Rocke\n"
+#define BANNER "multout version 3.03.1\nCopyright 1992,93,94,95,96 by David L. Woodruff and David M. Rocke\n"
 
 /* Release Notes: */
 /* 

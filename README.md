@@ -70,3 +70,12 @@ Done.
 Final report written to MULCROSS.OUT
 ```
 
+Bugs and Questions
+------------------
+Feel free to contact the original author, David Woodruff at `dlwoodruff AT ucdavis DOT edu`
+
+To submit bugs about the source code in this repository please visit
+
+https://github.com/icaoberg/multout
+
+For any other inquiries visit those links as well.

@@ -85,3 +85,8 @@ To submit bugs about the source code in this repository please visit
 https://github.com/icaoberg/multout
 
 For any other inquiries visit those links as well.
+
+TODO
+----
+- [ ] Port `multout` to python
+- [ ] Make test for `multout` for python that mimics the C version

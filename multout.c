@@ -46,7 +46,6 @@ Differences between 2.00.04 and 3.00
 
 #include <stdio.h>       /* magical incantations */
 #include <stdlib.h>
-#include <malloc.h>
 #include <math.h>
 #include <assert.h>
 #include <memory.h>

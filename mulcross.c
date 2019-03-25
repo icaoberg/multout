@@ -22,7 +22,6 @@
 
 #include <stdio.h>       /* magical incantations */
 #include <stdlib.h>
-#include <malloc.h>
 #include <math.h>
 #include <assert.h>
 #include <memory.h>

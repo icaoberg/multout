@@ -40,7 +40,6 @@ left in are prefixed by "#"s (this excludes function seperators)
 /* original includes */
 #include <stdio.h>    
 #include <stdlib.h>
-#include <malloc.h>
 #include <math.h>
 #include <assert.h>
 #include <memory.h>

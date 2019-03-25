@@ -210,7 +210,7 @@ void Pollute()
   double *DirVect;            /* direction vector */
   int SampStart;              /* first polluted sample index */
                  
-  DirVect = malloc((VectLen+1)*sizeof(float)); ALLCHK(DirVect)               
+  DirVect = malloc((VectLen+1)*sizeof(double)); ALLCHK(DirVect)               
   PollDist = NumUnits * sqrt(Chi2_At_Pt001(VectLen) / VectLen);
   SampStart = XCnt - PollCnt + 1;
   for (Samp = SampStart; Samp <=XCnt; Samp++) {

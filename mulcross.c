@@ -83,7 +83,7 @@ double URan( long *seed)
 /*return a uniform 0,1 rv using and returning the seed*/
 {
 #define c (long)2147483647
-   do *seed = ((long)16807 * *seed) % c; while (*seed == 0);
+   do *seed = ((long long)16807 * *seed) % c; while (*seed == 0);
    return((double)*seed / (double)c);
 #undef c
 }
